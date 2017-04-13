@@ -7,6 +7,16 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+
+    "paths": {
+      "*": [
+        "*",
+        "actions/*",
+        "components/*",
+        "reducers/*",
+        "store/*"
+      ]
+    },
     "target": "es5",
     "lib": [
       "es2016",
